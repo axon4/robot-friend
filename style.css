@@ -8,13 +8,8 @@ h1 {
 	justify-content: center;
 }
 
-.head,
-.left_arm,
-.torso,
-.right_arm,
-.left_leg,
-.right_leg {
-	 background-color: #5f93e8;
+.head, .left_arm, .torso, .right_arm, .left_leg, .right_leg {
+	background-color: #5F93E8;
 }
 
 .head {
@@ -31,7 +26,7 @@ h1 {
 
 .head:hover {
 	width: 300px;
-  transition: 1s ease-in-out;
+	transition: 1s ease-in-out;
 }
 
 .upper_body {
@@ -64,7 +59,7 @@ h1 {
 	display: flex;
 	width: 200px;
 	height: 200px;
-	/* This is another useful property. Hmm what do you think it does?*/
+	/* this is another useful property. Hmm... What do you think it does? */
 	margin: 0 auto;
 }
 
@@ -80,10 +75,10 @@ h1 {
 
 .left_leg:hover {
 	-webkit-transform: rotate(20deg);
-    -moz-transform: rotate(20deg);
-    -o-transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-    transform: rotate(20deg);
+	-moz-transform: rotate(20deg);
+	-o-transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	transform: rotate(20deg);
 }
 
 .right_leg {
@@ -98,8 +93,7 @@ h1 {
 }
 
 .left_eye {
-	/* These properties are new and you haven't encountered
-	in this course. Check out CSS Tricks to see what it does! */
+	/* these properties are new and you haven't encountered them in this course. Check out CSS Tricks to see what they do! */
 	position: relative;
 	top: 100px;
 	left: 40px;

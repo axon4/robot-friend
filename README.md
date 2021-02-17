@@ -1,7 +1,7 @@
-# Robot Friend
+# Robot-Friend
 
-* Animated robot using CSS.
-* NB: This robot is not actually your friend as it is insentient.
+* animated robot using CSS
+* NB: This robot is not actually your friend as it is inSentient
 
 ## Stack
 
